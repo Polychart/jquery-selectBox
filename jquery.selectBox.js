@@ -283,6 +283,9 @@ if(jQuery) (function($) {
 							classes = classes.split(' ');
 							for( var i in classes ) options.addClass(classes[i] + '-selectBox-dropdown-menu');
 						}
+                        // change for polychart
+                        options.addClass('polychart-ui');
+                        // end of change.
 
 						disableSelection(options);
 
